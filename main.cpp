@@ -118,9 +118,3 @@ void testTime (int size) {
     std::cout << "syncTime: " << syncTime << std::endl;
     std::cout << "asyncTime: " << asyncTime << std::endl;
 }
-
-int main() {
-    testMults(2);
-    testTime(750);
-
-}
